@@ -21,15 +21,7 @@ module.exports = {
       black: "#000000",
     },
     fontFamily: {
-      sans: [
-        "游ゴシック体",
-        "YuGothic",
-        "游ゴシック",
-        "Yu Gothic",
-        "ヒラギノ角ゴ ProN W3",
-        "Hiragino Kaku Gothic ProN",
-        "sans-serif",
-      ],
+      sans: ["游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "sans-serif"],
     },
     fontSize: object(80),
     fontWeight: {
