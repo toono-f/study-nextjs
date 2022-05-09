@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Footer } from "src/components/Footer";
-import { Headline } from "src/components/Headline";
-import { Links } from "src/components/Links";
+import { Main } from "src/components/Main";
 import styles from "src/styles/Home.module.scss";
 
 const Index = (props) => {
@@ -10,10 +9,7 @@ const Index = (props) => {
       <Head>
         <title>Index</title>
       </Head>
-      <main className={styles.main}>
-        <Headline page="index" />
-        <Links />
-      </main>
+      <Main page="index" />
       <Footer />
     </div>
   );

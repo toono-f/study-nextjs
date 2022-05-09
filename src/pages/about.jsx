@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Footer } from "src/components/Footer";
-import { Headline } from "src/components/Headline";
-import { Links } from "src/components/Links";
+import { Main } from "src/components/Main";
 import styles from "src/styles/Home.module.scss";
 
 const About = (props) => {
@@ -10,10 +9,7 @@ const About = (props) => {
       <Head>
         <title>About</title>
       </Head>
-      <main className={styles.main}>
-        <Headline page="about" />
-        <Links />
-      </main>
+      <Main page="about" />
       <Footer />
     </div>
   );
