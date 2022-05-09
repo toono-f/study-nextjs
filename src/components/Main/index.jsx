@@ -1,6 +1,6 @@
 import { Headline } from "src/components/Headline";
 import { Links } from "src/components/Links";
-import styles from "src/styles/Home.module.scss";
+import styles from "src/styles/Main.module.scss";
 
 export const Main = (props) => {
   return (
